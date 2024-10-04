@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px; 
+    height: 600px;
+    width: 420px;
+    box-shadow: 1px 3px 15px -8px rgba(0,0,0,0.5);
+    border-radius: .75rem;
+    
+}
+.display{
+    
+    height: 15vh;
+    font-size: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#display{
+    height: 100%;
+    width: 100%;
+    text-align: right;
+    font-size: 100%;
+    outline: none;
+    border: none;
+    padding: 15px;
+    background-color: #abbda7;
+    box-shadow: inset 2px 2px 3px 0px rgba(0,0,0,.25);
+    border-radius: .75em;
+}
+.buttons{
+    display: flex;
+    flex-wrap: wrap ; 
+    gap: 10px;
+}
+.button{
+    cursor: pointer;
+    width: 87px;
+    height: 80px;
+    border-radius: 50%;
+    font-size: 30px;
+    color: black;
+    box-shadow: 1px 3px 15px -8px rgba(0,0,0,0.5); /* 버튼 입체 그림자 효과 */
+    border: 3px solid rgba(240,240,240,.75);
+    background-color: #f4f4f4;
+}
+.C{
+    background-color: palevioletred;
+    border-radius: 30px;
+}
+.eql{
+    background-color: mediumturquoise;
+    
+}
+.windowBtn{
+    
+    gap: 15px;
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+}
+
+#closeBtn{
+    height: 20px;
+    width: 20px; 
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(236, 97, 97);
+    cursor: pointer;
+}
+#underBtn{
+    height: 20px;
+    width: 20px; 
+    border-radius: 50%; 
+    border: none;
+    background-color: rgb(234, 220, 62);
+    cursor: pointer;
+}
+#openBtn{
+    height: 20px;
+    width: 20px;  
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(66, 172, 66);
+    cursor: pointer;
+}
+
+.zero{
+    width: 48.5%;
+    border-radius: 30px;
+    
+}
+
+.button:hover{
+    filter: invert(10%);
+}
+
+.button:active{
+    filter: invert(25%);
+}
